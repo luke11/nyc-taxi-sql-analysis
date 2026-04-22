@@ -14,7 +14,6 @@ GROUP BY
 HAVING COUNT(*) > 1;
 
 
--- 2. the invalid values in the dataset, such as negative trip distances or fares.
 SELECT *
 FROM dbo.yellow_tripdata_2023_01
 WHERE
